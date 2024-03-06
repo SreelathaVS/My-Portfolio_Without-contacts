@@ -1,0 +1,40 @@
+.gradient-background {
+    background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+    background-size: 180% 180%;
+    animation: gradient-animation 5s ease infinite;
+  }
+  
+  @keyframes gradient-animation {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }}
+.card {
+    margin: 18px;
+}
+.footer {
+  padding:0px 50px 20px 50px;
+}
+.card-title {
+  color: rgb(173, 19, 19);
+  font-size: 2rem;
+}
+.card-text {
+  font-size: 1.2rem;
+}
+.card {
+  background-color: rgb(148, 241, 212);
+}
+.navbar {
+  font-size: 1.5rem;
+  padding: 15px;
+}
+.navbar-brand {
+  font-size: 2rem;
+}
+

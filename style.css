@@ -1,0 +1,46 @@
+.gradient-background {
+  background: linear-gradient(300deg, #00bfff, #ff4c68, #ef8172);
+  background-size: 180% 180%;
+  animation: gradient-animation 5s ease infinite;
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+@keyframes blink {
+  0% { opacity: 1; }
+  50% { opacity: 0; }
+  100% { opacity: 1; }
+}
+.enlarged {
+  transform: scale(1.2);
+}
+
+/* Apply the blink animation to the button */
+.blinking-button {
+  animation: blink 1s 1; /* Run the animation once */
+}
+.myImg {
+  border-radius: 50%;
+}
+.contact {
+  padding: 1%;
+}
+.marketing {
+  margin-left: 10%;
+}
+.navbar {
+  font-size: 1.5rem;
+  padding: 15px;
+}
+.navbar-brand {
+  font-size: 2rem;
+}
